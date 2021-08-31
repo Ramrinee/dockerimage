@@ -1,5 +1,5 @@
 pipeline {
-  agent { label "linux" }
+  agent { label "linux-neeraj" }
   stages {
     stage("build") {
       steps {
